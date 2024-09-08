@@ -1,6 +1,4 @@
-Here's an example of a `README.md` file for your project:
 
----
 
 # Malaysia COVID-19 Graph Data
 
