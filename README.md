@@ -27,20 +27,7 @@ This project is open-source and is licensed under the MIT License.
 
 To allow external devices to connect through Nginx, you need to modify the Nginx configuration file. Below is the configuration file:
 
-```nginx
-worker_processes  1;
-
-events {
-    worker_connections  1024;
-}
-
-http {
-    include       mime.types;
-    default_type  application/octet-stream;
-
-    sendfile        on;
-    keepalive_timeout  65;
-
+```
     # Server block for HTTP access on port 80
     server {
         listen       80;
