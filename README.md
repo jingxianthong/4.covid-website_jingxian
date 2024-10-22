@@ -1,4 +1,3 @@
-Here’s a Markdown report for your project:
 
 ---
 
